@@ -1,0 +1,38 @@
+.footer {
+    background-color: #6278F7;
+}
+
+.footer > div {
+    max-width: 1440px;
+    height: 213px;
+    margin-inline: auto;
+    background-image: url(/imagens/imagens/fundo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-block: 32px;
+}
+
+.footer .media > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 36px;
+    flex-direction: row wrap;
+}
+
+.footer .media > ul li {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.footer .media > ul a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
